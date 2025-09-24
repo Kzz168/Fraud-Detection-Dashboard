@@ -1,4 +1,4 @@
-Project Overview
+Project Overview:
 This is a simple project i creted in python that showcases an example of Fraud Detection Analysis that is demonstrated through the use of statistical and social network analysis
 
 Statistical Analysis:
