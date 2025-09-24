@@ -1,5 +1,5 @@
 Project Overview:
-This is a simple project i creted in python that showcases an example of Fraud Detection Analysis that is demonstrated through the use of statistical and social network analysis
+This is a simple project i created in python that showcases an example of Fraud Detection Analysis which is demonstrated through the use of statistical and social network analysis
 
 Statistical Analysis:
 - I used a basic statistical method (threshold based on mean + 2 standard deviations) to flag transactions with unusually high amounts as potential fraud.
