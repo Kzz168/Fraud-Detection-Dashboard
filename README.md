@@ -18,5 +18,5 @@ Generates two plots saved as PNG files:
 
 How to Run
 - Make sure the required libraries are installed: pip install pandas numpy networkx matplotlib
-- Save the code in as a py file and run the script in python
+- Save the code as a py file and run the script in python
 - Check the generated PNG files (amount_distribution.png and transaction_network.png) and the console output for results.
