@@ -16,7 +16,7 @@
 * Figure 2: A network graph showing user connections, with suspicious users in red.
 * Prints a summary of total transactions, number of fraudulent transactions, and suspicious users.
 
-***How to Run***
+***How to Run:***
 * Download the file and run in python
 * Make sure the required libraries are installed: pip install pandas numpy networkx matplotlib
 * Open the provided py file and run the script in python
@@ -46,7 +46,7 @@
 <br>
 <br>
 
-***Social Network Analysis Results***
+***Social Network Analysis Results:***
 <br> ***Purpose:*** Identify suspicious users based on their connectivity in the transaction network.
 * ***Method:***
   * ***Network Construction:*** A directed graph (nx.DiGraph) is built using NetworkX, where nodes are the 20 users (User_1 to User_20) and edges represent transactions (with weights as amounts).
@@ -64,7 +64,7 @@
 <br>
 <br>
 
-***Console Summary***
+***Console Summary:***
 <br> ***Output:*** The script prints a summary to the console, which looks something like this (exact numbers may vary slightly due to randomness, but the seed ensures consistency):
 *     Fraud Detection Summary:
       Total Transactions: 100
