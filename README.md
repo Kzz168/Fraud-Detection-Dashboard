@@ -22,7 +22,7 @@ Purpose: Identify fraudulent transactions based on unusually high amounts.
 •	Method: The script flags transactions as fraudulent if their amount exceeds the threshold of mean_amount + 2 * std_amount. 
 o	Data Generation: Transaction amounts are generated from a normal distribution (mean=100, std=30). Approximately 10% of transactions (10 out of 100) are marked as fraudulent by multiplying their amounts by a random factor between 3 and 5, making them significantly larger.
 o	Threshold Calculation: 
-	Mean amount ≈ $100 (based on the normal distribution).
+ Mean amount ≈ $100 (based on the normal distribution).
 	Standard deviation ≈ $30.
 	Threshold ≈ $100 + 2 * $30 = $160.
 	Transactions with amounts > $160 are flagged as fraudulent.
