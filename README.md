@@ -2,10 +2,8 @@ Project Overview: This is a simple project i created in python showcasing a Frau
 
 
 Statistical Analysis:
-
 * I used a basic statistical method (threshold based on mean + 2 standard deviations) to flag transactions with unusually high amounts as potential fraud.
-
-•	Later i visualised the distribution of transaction amounts with a histogram, separating the normal and fraudulent transactions.
+* Later i visualised the distribution of transaction amounts with a histogram, separating the normal and fraudulent transactions.
 
 
 Social Network Analysis:
