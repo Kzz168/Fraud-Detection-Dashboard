@@ -1,5 +1,6 @@
 Project Overview: This is a simple project i created in python showcasing a Fraud Detection Analysis through the use of statistical and social network analysis.
 
+
 Statistical Analysis:
 * I used a basic statistical method (threshold based on mean + 2 standard deviations) to flag transactions with unusually high amounts as potential fraud.
 * Later i visualised the distribution of transaction amounts with a histogram, separating the normal and fraudulent transactions.
@@ -16,6 +17,7 @@ How to Run
 * Make sure the required libraries are installed: pip install pandas numpy networkx matplotlib
 * Open the provided py file and run the script in python
 * Check the generated plots in python (Figure 1 and Figure 2) and the console output for the results.
+
 
 Statistical Analysis Results:
 Purpose: Identify fraudulent transactions based on unusually high amounts.
@@ -36,6 +38,7 @@ Visualisation (Histogram):
   * Bins: 20 bins, providing a clear separation between normal and fraudulent amounts.
 * Interpretation: The histogram shows that fraudulent transactions are outliers with significantly higher amounts, demonstrating the effectiveness of the statistical threshold in identifying anomalies.
 
+
 Social Network Analysis Results
 Purpose: Identify suspicious users based on their connectivity in the transaction network.
 * Method:
@@ -51,12 +54,15 @@ Visualisation (Network Graph):
   * Layout: Spring layout (nx.spring_layout), where nodes with more connections tend to cluster centrally, and edges show the direction of transactions.
 * Interpretation: The network graph reveals users with unusually high transaction activity, indicating potential fraud hubs. For example, a user with many incoming and outgoing transactions might be coordinating fraudulent activity. This demonstrates practical experience in social network analysis to uncover relational fraud patterns.
 
+
 Console Summary
 <br> Output: The script prints a summary to the console, which looks something like this (exact numbers may vary slightly due to randomness, but the seed ensures consistency):
 *     Fraud Detection Summary:
       Total Transactions: 100
       Fraudulent Transactions: 7 (7.0%)
       Suspicious Users (High Connections): [‘User_5’, ‘User_13’, ‘User_2’]
-<br> Total Transactions: Always 100, as specified in the script. 
-<br> Fraudulent Transactions: Approximately 10 transactions (10%), as the script marks 10% of transactions as fraudulent. 
-<br> Suspicious Users: The top 3 users by degree centrality, e.g. User_3, User_6, User_18. These users have the most connections, indicating they are involved in many transactions, which could suggest coordinated fraud.
+Total Transactions: Always 100, as specified in the script.
+
+Fraudulent Transactions: Approximately 10 transactions (10%), as the script marks 10% of transactions as fraudulent. 
+
+Suspicious Users: The top 3 users by degree centrality, e.g. User_3, User_6, User_18. These users have the most connections, indicating they are involved in many transactions, which could suggest coordinated fraud.
