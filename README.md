@@ -52,11 +52,11 @@ Visualisation (Network Graph):
 * Interpretation: The network graph reveals users with unusually high transaction activity, indicating potential fraud hubs. For example, a user with many incoming and outgoing transactions might be coordinating fraudulent activity. This demonstrates practical experience in social network analysis to uncover relational fraud patterns.
 
 3. Console Summary
-Output: The script prints a summary to the console, which looks something like this (exact numbers may vary slightly due to randomness, but the seed ensures consistency):
+<br> Output: The script prints a summary to the console, which looks something like this (exact numbers may vary slightly due to randomness, but the seed ensures consistency):
   Fraud Detection Summary:
   Total Transactions: 100
   Fraudulent Transactions: 7 (7.0%)
   Suspicious Users (High Connections): [‘User_5’, ‘User_13’, ‘User_2’]
-Total Transactions: Always 100, as specified in the script. 
-Fraudulent Transactions: Approximately 10 transactions (10%), as the script marks 10% of transactions as fraudulent. 
-Suspicious Users: The top 3 users by degree centrality, e.g. User_3, User_6, User_18. These users have the most connections, indicating they are involved in many transactions, which could suggest coordinated fraud.
+<br> Total Transactions: Always 100, as specified in the script. 
+<br> Fraudulent Transactions: Approximately 10 transactions (10%), as the script marks 10% of transactions as fraudulent. 
+<br> Suspicious Users: The top 3 users by degree centrality, e.g. User_3, User_6, User_18. These users have the most connections, indicating they are involved in many transactions, which could suggest coordinated fraud.
