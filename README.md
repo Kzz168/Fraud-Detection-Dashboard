@@ -1,6 +1,7 @@
 Project Overview: This is a simple project i created in python showcasing a Fraud Detection Analysis through the use of statistical and social network analysis.
 
-<p> Statistical Analysis:
+<p>
+Statistical Analysis:
 * I used a basic statistical method (threshold based on mean + 2 standard deviations) to flag transactions with unusually high amounts as potential fraud.
 * Later i visualised the distribution of transaction amounts with a histogram, separating the normal and fraudulent transactions.
 Social Network Analysis:
@@ -17,7 +18,7 @@ How to Run
 * Open the provided py file and run the script in python
 * Check the generated plots in python (Figure 1 and Figure 2) and the console output for the results.
 
-<p> Statistical Analysis Results:
+ Statistical Analysis Results:
 Purpose: Identify fraudulent transactions based on unusually high amounts.
 * Method: The script flags transactions as fraudulent if their amount exceeds the threshold of mean_amount + 2 * std_amount.
   * Data Generation: Transaction amounts are generated from a normal distribution (mean=100, std=30). Approximately 10% of transactions (10 out of 100) are marked as fraudulent by multiplying their amounts by a random factor between 3 and 5, making them significantly larger.
